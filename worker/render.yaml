@@ -1,8 +1,0 @@
-services:
-  - type: worker
-    name: hivemq-subscriber
-    runtime: python
-    plan: free
-    startCommand: python mqtt_worker.py
-    envVars:
-      - fromDotEnv: true
